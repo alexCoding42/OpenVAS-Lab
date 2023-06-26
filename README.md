@@ -10,7 +10,7 @@ Finally I remediated some identified vulnerabilities, and verified successful re
 I also created a list of remediable vulnerabilities to simulate realistic vulnerability remediation scenarios.
 
 ## Lab Architecture
-![Visual](https://www.dropbox.com/s/atoiab6qj1n4m39/OpenVAS%20Lab.jpg?raw=1)
+![Visual](https://www.dropbox.com/s/u8t13p5dzmzxl20/visual.jpg?raw=1)
 
 ## Unauthenticated Scan Results
 Although I installed deprecated softwares on the Windows virtual machine, the scan was not able to identify them as vulnerabilities. 
