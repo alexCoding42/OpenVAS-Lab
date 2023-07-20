@@ -2,15 +2,17 @@
 
 ## Introduction
 
-In this project, I utilized OpenVAS to perform some vulnerability scans on a Windows host, identified and remediated some of them.
-First I set up a vulnerable Windows 10 virtual machine on Azure, installed outdated softwares on it and disabled security controls. 
-I installed and configured OpenVAS on another Azure virtual machine to perform unauthenticated and credentialed vulnerability scans against the Windows host. 
-Then I analyzed the scan results, highlighted the difference between unauthenticated and credentialed scans. 
-Finally I remediated some identified vulnerabilities, and verified successful remediation through subsequent scans.
-I also created a list of remediable vulnerabilities to simulate realistic vulnerability remediation scenarios.
+In this project, I utilized OpenVAS to perform some vulnerability scans on a Windows host, identify, assess, prioritize and remediate some of them.
 
-## Lab Architecture
 ![Visual](https://www.dropbox.com/s/u8t13p5dzmzxl20/visual.jpg?raw=1)
+
+## Steps
+1. I set up a vulnerable Windows 10 virtual machine on Azure, installed outdated softwares on it and disabled security controls.
+2. I installed and configured OpenVAS on another Azure virtual machine to perform unauthenticated and credentialed vulnerability scans against the Windows host. 
+3. I analyzed the scan results, highlighted the difference between unauthenticated and credentialed scans. 
+4. I generated reports to assess and prioritize most critical vulnerabilities
+5. I remediated critical vulnerabilities, and verified successful remediation through subsequent scans.
+6. I created a list of remediable vulnerabilities to simulate realistic vulnerability remediation scenarios.
 
 ## Unauthenticated Scan Results
 Although I installed deprecated softwares on the Windows virtual machine, the scan was not able to identify them as vulnerabilities. 
